@@ -18,8 +18,8 @@ CONVENTIONAL_PRODUCE = [
 
 def assembled_matrix
   matrix = [
-    ORGANIC_PRODUCE,
-    CONVENTIONAL_PRODUCE
+    CONVENTIONAL_PRODUCE,
+    ORGANIC_PRODUCE
     ]
     matrix
 end
@@ -28,8 +28,8 @@ assembled_matrix
 
 def sorted_matrix
   matrix = [
-    ORGANIC_PRODUCE.sort,
-    CONVENTIONAL_PRODUCE.sort
+    CONVENTIONAL_PRODUCE.sort,
+    ORGANIC_PRODUCE.sort
     ]
 end
 
