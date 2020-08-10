@@ -21,7 +21,7 @@ def assembled_matrix
     CONVENTIONAL_PRODUCE,
     ORGANIC_PRODUCE
     ]
-    matrix
+  matrix
 end
 
 assembled_matrix
@@ -31,6 +31,7 @@ def sorted_matrix
     CONVENTIONAL_PRODUCE.sort,
     ORGANIC_PRODUCE.sort
     ]
+  matrix
 end
 
 def matrix_lookup(matrix, row, column)
