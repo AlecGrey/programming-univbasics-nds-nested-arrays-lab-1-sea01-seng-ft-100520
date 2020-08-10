@@ -24,8 +24,6 @@ def assembled_matrix
   matrix
 end
 
-assembled_matrix
-
 def sorted_matrix
   matrix = [
     CONVENTIONAL_PRODUCE.sort,
